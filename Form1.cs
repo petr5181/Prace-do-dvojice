@@ -6,5 +6,10 @@ namespace Prace_do_dvojice_6_10_2025
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "Kliknuto";
+        }
     }
 }
