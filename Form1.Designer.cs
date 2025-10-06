@@ -38,7 +38,7 @@
             button1.Name = "button1";
             button1.Size = new Size(401, 132);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "nigga";
             button1.UseVisualStyleBackColor = true;
             // 
             // label1
