@@ -44,6 +44,10 @@
             cislomax = new Label();
             vysledekVplusu = new Label();
             VysledekVminusu = new Label();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // textBox1
@@ -188,12 +192,34 @@
             VysledekVminusu.TabIndex = 15;
             VysledekVminusu.Text = "VysledekVminusu";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = Properties.Resources.kucabahlava;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Location = new Point(12, 353);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(196, 79);
+            pictureBox1.TabIndex = 16;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = Properties.Resources.Snímek_obrazovky_2025_05_29_144308;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox2.Location = new Point(587, 360);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(201, 72);
+            pictureBox2.TabIndex = 17;
+            pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSeaGreen;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             Controls.Add(VysledekVminusu);
             Controls.Add(vysledekVplusu);
             Controls.Add(cislomax);
@@ -212,6 +238,8 @@
             Controls.Add(textBox1);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -234,5 +262,7 @@
         private Label cislomax;
         private Label vysledekVplusu;
         private Label VysledekVminusu;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }
