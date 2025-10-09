@@ -11,5 +11,10 @@ namespace Prace_do_dvojice_6_10_2025
         {
             MessageBox.Show("Ahoj svìte!");
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
