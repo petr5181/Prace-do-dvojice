@@ -7,11 +7,6 @@ namespace Prace_do_dvojice_6_10_2025
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Ahoj svìte!");
-        }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             MessageBox.Show("Ahoj svìte!");

@@ -28,18 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            textBox1 = new TextBox();
             button1 = new Button();
             SuspendLayout();
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(157, 52);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(487, 27);
+            textBox1.TabIndex = 0;
+            // 
             // button1
             // 
-            button1.Location = new Point(225, 132);
+            button1.Location = new Point(238, 152);
             button1.Name = "button1";
-            button1.Size = new Size(317, 108);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Size = new Size(321, 41);
+            button1.TabIndex = 1;
+            button1.Text = "Calculate";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
             // 
             // Form1
             // 
@@ -47,13 +54,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
+            Controls.Add(textBox1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
+        private TextBox textBox1;
         private Button button1;
     }
 }
